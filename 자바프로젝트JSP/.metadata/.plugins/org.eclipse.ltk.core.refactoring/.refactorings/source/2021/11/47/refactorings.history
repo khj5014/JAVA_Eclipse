@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;WebMarket/src/main/java/com.bundle&apos;&#x0D;&#x0A;- Original project: &apos;source&apos;&#x0D;&#x0A;- Destination element: &apos;WebMarket/src/main/java/com.bundle&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     message_en.properties&#x0D;&#x0A;     message.properties" description="Copy files" destination="=WebMarket/src\/main\/java&lt;com.bundle" element1="WebMarket_10장/WebMarket/src/bundle/message_en.properties" element2="WebMarket_10장/WebMarket/src/bundle/message.properties" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1637080182170" units="0" version="1.0"/>
+</session>

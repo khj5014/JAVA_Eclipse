@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>장바구니 비우기</title>
+</head>
+<body>
+	장바구니에 있는 모든 상품을 삭제하시겠습니까?
+	<%
+	String id = request.getParameter("id");
+	if (id == null || id.trim().equals("")) {
+		response.sendRedirect("cart_list.jsp");
+		return;
+	}
+
+	session.invalidate();
+	
+	response.sendRedirect("cart_list.jsp");
+	%>
+</body>
+</html>
